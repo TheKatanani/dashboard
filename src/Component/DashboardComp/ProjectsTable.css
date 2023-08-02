@@ -19,3 +19,16 @@
     color: #fff;
     font-size: 13px;
 }
+@media screen and (width < 767px) {
+    .Project{
+        font-size: 10px;
+        overflow:auto;
+    }
+    .Project td{
+        padding: 4px !important;
+    }
+    .Project td span{
+        font-size: 10px;
+        text-wrap: nowrap;
+    }
+}

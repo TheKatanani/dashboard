@@ -1,4 +1,3 @@
-import "./Dashboard.css"
 import Welcome from "./DashboardComp/Welcome"
 import QyuckDraft from "./DashboardComp/QyuckDraft"
 import Targets from "./DashboardComp/Targets"
@@ -12,6 +11,7 @@ import Reminders from "./DashboardComp/Reminders"
 import LatestPost from "./DashboardComp/LatestPost"
 import Social from "./DashboardComp/Social"
 import ProjectsTable from "./DashboardComp/ProjectsTable"
+import "./Dashboard.css"
 function Dashboard(){
 return(
         <div className="Dashboard container  overflow-auto  ps-4">
