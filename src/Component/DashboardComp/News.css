@@ -1,0 +1,13 @@
+img{
+    width: 80px;
+    height: 50px;
+}
+
+.News p{
+    font-size: 10px;
+    width: fit-content;
+    height: fit-content;
+}
+.News h6{
+    font-size: 12px;
+}

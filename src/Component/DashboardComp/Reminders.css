@@ -1,0 +1,37 @@
+.Reminders li{
+    position: relative;
+    border-left: 3px solid #0d6efd;
+}
+.Reminders li::before{
+    content: "";
+    position: absolute;
+    width: 20px;
+    height:20px;
+    background-color: #0d6efd;
+    left: -32px;
+    top: 15px;
+    border-radius: 50%;
+}
+
+.Reminders li:nth-child(2){
+    border-color:#198754 ;
+}
+.Reminders li:nth-child(2)::before{
+    background-color:#198754 ;
+}
+
+
+.Reminders li:nth-child(3){
+    border-color:#ffc107 ;
+}
+.Reminders li:nth-child(3)::before{
+    background-color:#ffc107 ;
+}
+
+
+.Reminders li:nth-child(4){
+    border-color: #dc3545;
+}
+.Reminders li:nth-child(4)::before{
+    background-color: #dc3545;
+}

@@ -1,0 +1,105 @@
+
+/* #0d6efd */
+
+.bar{
+    background-color: #0d6dfd71;
+    height: 4px;
+    position: relative;
+}
+.bar span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 4px;
+    background-color: #0d6efd;
+}
+.bar span::before{
+    content: attr(data-done);
+    position: absolute;
+    background-color: #0d6efd;
+    border-radius: 4px;
+    padding: 2px;
+    top: -27px;
+    right: -13px;
+    /* height: 15px; */
+    width: fit-content;
+    font-size: 12px;
+    color: #fff ;
+}
+.bar span::after{
+    content: "";
+    position: absolute;
+    border-style:solid;
+    border-width: 7px;
+    border-color:#0d6efd transparent transparent transparent ;
+    
+    top: -8px;
+    right: -7px;
+    /* height: 15px; */
+    
+    font-size: 12px;
+}
+
+
+.blue .bar {
+    background-color:#0d6dfd71 ;
+    
+}
+
+.brown .bar {
+    background-color: rgba(245, 159, 11, 0.39) ;
+}
+
+.green .bar {
+    background-color: rgba(34, 197, 94, 0.39) ;
+    
+}
+.blue .bar span{
+    background-color:#0d6efd  ;
+    
+}
+
+.brown .bar span{
+    background-color: rgb(245, 159, 11) ;
+}
+
+.green .bar span{
+    background-color:rgb(34,197,94)  ;
+    
+}
+
+
+
+
+
+
+.blue .bar span::after{
+    border-color:#0d6efd transparent transparent transparent ;
+    
+}
+
+.blue .bar span::before
+
+{
+    background-color: #0d6efd ;
+}
+
+.green .bar span::after{
+    border-color:rgb(34,197,94) transparent transparent transparent ;
+    
+}
+
+.green .bar span::before
+{
+    background-color: rgb(34,197,94) ;
+}
+
+.brown .bar span::after{
+    border-color:rgb(245, 159, 11) transparent transparent transparent ;
+    
+}
+
+.brown .bar span::before
+{
+    background-color: rgb(245, 159, 11) ;
+}

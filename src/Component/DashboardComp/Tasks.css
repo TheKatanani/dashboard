@@ -1,0 +1,18 @@
+.deleteIcon{
+    cursor: pointer;
+}
+.done{
+    opacity: 0.3;
+}
+.done h6 , .done p {
+    text-decoration: line-through;
+}
+.Tasks p{
+    font-size: 10px;
+    width: fit-content;
+    height: fit-content;
+}
+.Tasks h6{
+    font-size: 12px;
+}
+

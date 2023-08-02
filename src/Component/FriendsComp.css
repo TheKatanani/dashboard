@@ -1,0 +1,62 @@
+.Friends{
+    height: 80vh;
+}
+.Friends .card-head{
+position: relative;
+}
+.Friends .card-head img{
+    width: 6rem;
+    height: 6rem;
+}
+.card-head p{
+    font-size: 12px;
+}
+ .card-body{
+    margin-top: -10px!important;
+}
+ .card-body div div:not(:first-child){
+    margin-top: -15px!important;
+}
+
+
+.Friends .vip{
+    position: absolute;
+    right: -23px;
+    top:30px;
+    width: 100px;
+    font-size: 1.8rem;
+    padding-left: 10px;
+    color: #fff;
+    letter-spacing: 5px;
+    background-color: #0d6efd;
+    transform: rotate(90deg);
+}
+.Friends .vip::before{
+    content: "";
+    border: 23px solid ;
+    border-color:transparent  #fff transparent transparent;
+    position: absolute;
+    right: -1px;
+    top: 0px;
+}
+.Friends .card_top_icon{
+    position: absolute;
+    top:10px;
+}
+.Friends .card_top_icon span{
+    width: 20px;
+    height: 20px;
+}
+.Friends .myBtn,.Friends .date{
+    font-size: 10px;
+}
+@media (min-width: 1200px) { 
+    .Friends  {
+        display: flex;
+        gap: 2px;
+        justify-content: space-evenly;
+    }
+    .Friends .box{
+        width: 245px;
+    }    
+}

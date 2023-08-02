@@ -1,0 +1,9 @@
+.imgProfile{
+    top: -30px;
+    left: 15px;
+}
+.imgProfile img{ 
+    width: 60px;
+    height: 60px;
+    border: 3px solid #fff;
+}

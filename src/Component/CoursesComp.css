@@ -1,0 +1,22 @@
+.Courses {
+    height: 80vh;
+}
+.Courses .CoursesImg{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 60px;
+    height: 60px;
+    z-index: 1;
+}
+.Courses .myBtn{
+    width: fit-content;
+    margin-top: -38px !important;
+}
+@media (min-width: 1200px) { 
+    .Courses  {
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+    }    
+}

@@ -1,0 +1,53 @@
+.Social svg{
+    margin: 10px;
+    display: flex;
+    align-self: center;
+}
+
+.Social li:nth-child(1) .svg{
+    background-color: #1DA1F2;
+}
+.Social li:nth-child(2) .svg{
+    background-color: #4267B2;
+}
+.Social li:nth-child(3) .svg{
+    background-color: #FF0000;
+}
+.Social li:nth-child(4) .svg{
+    background-color: #0e76a8;
+}
+
+.Social li:nth-child(1) {
+    background-color: #1da0f282;
+    color:#1DA1F2;
+}
+.Social li:nth-child(2) {
+    background-color: #4267b288;
+    color:#4267B2;
+}
+.Social li:nth-child(3) {
+    background-color: #ff000080;
+    color:#FF0000;
+}
+.Social li:nth-child(4) {
+    background-color: #0e77a881;
+    color:#0e76a8;
+}
+
+.Social li  span{
+    color:#fff;
+    font-size: 12px;
+}
+.Social li:nth-child(1) span{
+    background-color: #1DA1F2;
+}
+.Social li:nth-child(2) span{
+    background-color: #4267B2;
+}
+.Social li:nth-child(3) span{
+    background-color: #FF0000;
+}
+.Social li:nth-child(4) span{
+    background-color: #0e76a8;
+}
+
